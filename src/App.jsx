@@ -1,24 +1,29 @@
-
+/**
+ * Nomes: 
+ *          Mauricio Soto
+ *          Rodrigo Pereira
+ *          Thiago Amaral
+ * Cadeira:
+ *          Desenvolvimento Web
+ */
+import './App.css'
+import Header from './components/header';
 
 const App = () => {
   return (
     <div
       style={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "space-between",
-        height: '100vh',
-        alignItems: 'center',
+        display: 'flex',
+        flexDirection: 'column',
+        minHeight: '100vh',
       }}
     >
-      <div style={{backgroundColor: 'grey', width: '100%', padding: '30px', boxSizing: 'border-box'}}>
-        <h2>Header</h2>
+      <Header/>
+      <div style={{ flexGrow: '1',  boxSizing: 'border-box' }}>
+        <h2 style={{ margin: '0' }}>Body</h2>
       </div>
-      <div>
-        <h2>Body</h2>
-      </div>
-      <div style={{backgroundColor: 'grey', width: '100%', padding: '30px', boxSizing: 'border-box'}}>
-        <p>Footer</p>
+      <div style={{ backgroundColor: 'grey',  }}>
+        <p style={{ margin: '0', textAlign: 'center' }}>Footer</p>
       </div>
     </div>
   );
