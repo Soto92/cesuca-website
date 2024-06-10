@@ -1,13 +1,50 @@
 import HeaderIMG from "../assets/images/header.png";
 
+const Button = () => {
+  return (
+    <div
+      onClick={() => alert("WOW")}
+      style={{
+        display: "flex",
+        backgroundColor: "#399A52",
+        justifyContent: "center",
+        width: "470px",
+        cursor: "pointer",
+        height: "97px",
+        borderRadius: "10px",
+      }}
+    >
+      <div
+        style={{
+          backgroundColor: "#004AAD",
+          borderRadius: "10px",
+          width: "450px",
+          height: "87px",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <strong
+          style={{
+            fontSize: "35px",
+            color: "white",
+          }}
+        >
+          Quero as planilhas
+        </strong>
+      </div>
+    </div>
+  );
+};
+
 const Header = () => {
   return (
     <div
       style={{
         width: "100%",
-        padding: "10px 0",
-        textAlign: "center",
         position: "relative",
+        padding: "10px 0",
       }}
     >
       <img
@@ -45,19 +82,31 @@ const Header = () => {
           width: "598px",
         }}
       >
-        <h1
+        <div
           style={{
-            color: "white",
-            fontWeight: "800",
-            fontSize: "34px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            flexDirection: "column",
+            textAlign: "center",
           }}
         >
-          Tenha controle total das suas finanças e saiba para onde está indo{" "}
-          <a style={{ color: "#399A52" }}>seu dinheiro.</a>
-        </h1>
-        <p style={{ color: "white", fontSize: "30px" }}>
-          Não adianta ganhar dinheiro se você não sabe administrá-lo!
-        </p>
+          <h1
+            style={{
+              color: "white",
+              fontWeight: "800",
+              fontSize: "34px",
+            }}
+          >
+            Tenha controle total das suas finanças e saiba para onde está indo{" "}
+            <a style={{ color: "#399A52" }}>seu dinheiro.</a>
+          </h1>
+          <p style={{ color: "white", fontSize: "30px" }}>
+            Não adianta ganhar dinheiro se você não sabe administrá-lo!
+          </p>
+
+          <Button />
+        </div>
       </div>
     </div>
   );
