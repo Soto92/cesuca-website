@@ -7,6 +7,13 @@
  *          Desenvolvimento Web
  */
 import "./App.css";
+import BannerDiffs from "./components/banners/bannerDiffs";
+import BannerGetOurSheets from "./components/banners/bannerGetOurSheets";
+import BannerMission from "./components/banners/bannerMission";
+import BannerQuality from "./components/banners/bannerQuality";
+import BannerSheets from "./components/banners/bannerSheets";
+import BannerModels from "./components/banners/bannerModels";
+import Footer from "./components/footer";
 import Header from "./components/header";
 
 const App = () => {
@@ -16,24 +23,20 @@ const App = () => {
         display: "flex",
         flexDirection: "column",
         minHeight: "100vh",
+        overflowX: "hidden",
       }}
     >
       <Header />
+      <div style={{ height: "88vh" }} />
 
-      <div style={{ flexGrow: "1", boxSizing: "border-box" }}>
-        <h2 style={{ margin: "0", backgroundColor: "red", height: "200px" }}>
-          Body
-        </h2>
-        <div style={{ width: "300px", height: "300px" }}></div>
-      </div>
+      <BannerMission />
+      <BannerQuality />
+      <BannerSheets />
+      <BannerModels />
+      <BannerDiffs />
+      <BannerGetOurSheets />
 
-      <div
-        style={{ width: "300px", height: "800px", backgroundColor: "red" }}
-      ></div>
-
-      <div style={{ backgroundColor: "grey" }}>
-        <p style={{ margin: "0", textAlign: "center" }}>Footer</p>
-      </div>
+      <Footer />
     </div>
   );
 };

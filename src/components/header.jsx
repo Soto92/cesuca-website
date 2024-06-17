@@ -40,72 +40,74 @@ const Button = () => {
 
 const Header = () => {
   return (
-    <div
-      style={{
-        width: "100%",
-        position: "relative",
-        padding: "10px 0",
-      }}
-    >
-      <img
-        src={HeaderIMG}
-        alt="Logo"
-        style={{
-          position: "absolute",
-          top: "0",
-          left: "0",
-          width: "100vw",
-          height: "90vh",
-          objectFit: "cover",
-          zIndex: "1",
-        }}
-      />
+    <div style={{ display: "flex" }}>
       <div
         style={{
-          position: "absolute",
-          top: "0",
-          left: "0",
           width: "100%",
-          height: "90vh",
-          backgroundColor: "rgba(0, 0, 0, 0.7)",
-          zIndex: "2",
-        }}
-      />
-      <div
-        style={{
-          margin: "5px 0",
-          position: "absolute",
-          top: "50%",
-          left: "50%",
-          transform: "translate(-50%, 250px)",
-          zIndex: "2",
-          width: "598px",
+          position: "relative",
+          padding: "10px 0",
         }}
       >
+        <img
+          src={HeaderIMG}
+          alt="Logo"
+          style={{
+            position: "absolute",
+            top: "0",
+            left: "0",
+            width: "100vw",
+            height: "90vh",
+            objectFit: "cover",
+            zIndex: "1",
+          }}
+        />
         <div
           style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            flexDirection: "column",
-            textAlign: "center",
+            position: "absolute",
+            top: "0",
+            left: "0",
+            width: "100%",
+            height: "90vh",
+            backgroundColor: "rgba(0, 0, 0, 0.7)",
+            zIndex: "2",
+          }}
+        />
+        <div
+          style={{
+            margin: "5px 0",
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, 250px)",
+            zIndex: "2",
+            width: "598px",
           }}
         >
-          <h1
+          <div
             style={{
-              color: "white",
-              fontWeight: "800",
-              fontSize: "34px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              flexDirection: "column",
+              textAlign: "center",
             }}
           >
-            Tenha controle total das suas finanças e saiba para onde está indo{" "}
-            <a style={{ color: "#399A52" }}>seu dinheiro.</a>
-          </h1>
-          <p style={{ color: "white", fontSize: "30px" }}>
-            Não adianta ganhar dinheiro se você não sabe administrá-lo!
-          </p>
+            <h1
+              style={{
+                color: "white",
+                fontWeight: "800",
+                fontSize: "34px",
+              }}
+            >
+              Tenha controle total das suas finanças e saiba para onde está indo{" "}
+              <a style={{ color: "#399A52" }}>seu dinheiro.</a>
+            </h1>
+            <p style={{ color: "white", fontSize: "30px" }}>
+              Não adianta ganhar dinheiro se você não sabe administrá-lo!
+            </p>
 
-          <Button />
+            <Button />
+          </div>
         </div>
       </div>
     </div>
