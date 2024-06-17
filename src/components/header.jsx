@@ -41,7 +41,7 @@ const Header = () => {
             position: "absolute",
             top: "50%",
             left: "50%",
-            transform: "translate(-50%, 250px)",
+            transform: "translate(-50%, 100px)",
             zIndex: "2",
             width: "598px",
           }}
