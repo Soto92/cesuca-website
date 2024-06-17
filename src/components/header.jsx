@@ -1,42 +1,5 @@
 import HeaderIMG from "../assets/images/header.png";
-
-const Button = () => {
-  return (
-    <div
-      onClick={() => alert("WOW")}
-      style={{
-        display: "flex",
-        backgroundColor: "#399A52",
-        justifyContent: "center",
-        width: "470px",
-        cursor: "pointer",
-        height: "97px",
-        borderRadius: "10px",
-      }}
-    >
-      <div
-        style={{
-          backgroundColor: "#004AAD",
-          borderRadius: "10px",
-          width: "450px",
-          height: "87px",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <strong
-          style={{
-            fontSize: "35px",
-            color: "white",
-          }}
-        >
-          Quero as planilhas
-        </strong>
-      </div>
-    </div>
-  );
-};
+import Button from "./button";
 
 const Header = () => {
   return (
@@ -106,7 +69,7 @@ const Header = () => {
               Não adianta ganhar dinheiro se você não sabe administrá-lo!
             </p>
 
-            <Button />
+            <Button text="Quero as planilhas" onClick={() => alert("wow")} />
           </div>
         </div>
       </div>
