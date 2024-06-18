@@ -69,7 +69,15 @@ const Header = () => {
               Não adianta ganhar dinheiro se você não sabe administrá-lo!
             </p>
 
-            <Button text="Quero as planilhas" onClick={() => alert("wow")} />
+            <Button
+              text="Quero as planilhas"
+              onClick={() =>
+                window.open(
+                  "https://hotmart.com/pt-br/marketplace/produtos/arquivos-pre-prontos-para-apresentacoes-tcc-controle-financeiro-curriculo/F83402332H",
+                  "_blank"
+                )
+              }
+            />
           </div>
         </div>
       </div>
