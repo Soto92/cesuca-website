@@ -27,7 +27,7 @@ const App = () => {
       }}
     >
       <Header />
-      <div style={{ height: "88vh" }} />
+      <div style={{ height: "87vh" }} />
 
       <BannerMission />
       <BannerQuality />
