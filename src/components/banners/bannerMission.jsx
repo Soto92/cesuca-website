@@ -1,5 +1,5 @@
 import React from "react";
-import PersonsIMG from "../../assets/images/persons.jsx";
+import PersonsIMG from "../../assets/images/persons.png";
 
 const BannerMission = () => {
   return (
@@ -7,7 +7,7 @@ const BannerMission = () => {
       style={{
         display: "flex",
         backgroundColor: "#004AAD",
-        padding: "50px",
+        padding: "200px",
         flexDirection: "row",
         alignItems: "center",
         justifyContent: "center",
