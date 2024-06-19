@@ -1,5 +1,5 @@
 import React from "react";
-import PersonsIMG from "../../assets/images/persons.png";
+import PersonsIMG from "../../assets/images/persons.jsx";
 
 const BannerMission = () => {
   return (

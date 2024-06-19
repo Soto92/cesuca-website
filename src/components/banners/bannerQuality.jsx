@@ -1,4 +1,6 @@
 import React from "react"
+import MonitorIMG from "../../assets/images/monitor.png"
+
 
 const BannerQuality = () => {
     return <div>
