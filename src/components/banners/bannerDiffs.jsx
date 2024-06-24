@@ -1,11 +1,18 @@
-import React from "react"
+import React from "react";
 
 const BannerDiffs = () => {
-    return <div style={{display: 'flex', backgroundColor:  'green', height: '100px', flexDirection: "row",}}>
-        <p>
-            Banner
-        </p>
+  return (
+    <div
+      style={{
+        display: "flex",
+        backgroundColor: "green",
+        height: "100px",
+        flexDirection: "row",
+      }}
+    >
+      <p>Nossos diferenciais</p>
     </div>
-}
+  );
+};
 
-export default BannerDiffs
+export default BannerDiffs;

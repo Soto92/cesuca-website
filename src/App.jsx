@@ -31,8 +31,8 @@ const App = () => {
 
       <BannerMission />
       <BannerQuality />
-      <BannerSheets />
       <BannerModels />
+      <BannerSheets />
       <BannerDiffs />
       <BannerGetOurSheets />
 
