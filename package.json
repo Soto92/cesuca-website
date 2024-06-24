@@ -5,10 +5,10 @@
   "homepage": "https://soto92.github.io/cesuca-website",
   "scripts": {
     "dev": "rsbuild dev --open",
-    "build": "rsbuild build",
+    "build": "PUBLIC_URL=https://soto92.github.io/cesuca-website rsbuild build",
     "preview": "rsbuild preview",
     "predeploy": "npm run build",
-    "deploy": "PUBLIC_URL=https://soto92.github.io/cesuca-website gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "6.1.1",
