@@ -5,7 +5,7 @@
   "homepage": "https://soto92.github.io/cesuca-website",
   "scripts": {
     "dev": "rsbuild dev --open",
-    "build": "PUBLIC_URL=https://soto92.github.io/cesuca-website rsbuild build",
+    "build": "PUBLIC_URL=https://soto92.github.io/cesuca-website BUILD_PATH='./build' rsbuild build",
     "preview": "rsbuild preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"

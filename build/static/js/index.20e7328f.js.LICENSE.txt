@@ -1,0 +1,101 @@
+/*! ./components/banners/bannerSheets */
+
+/*! react */
+
+/*! ./components/banners/bannerMission */
+
+/*! ../button */
+
+/*! react */
+
+/*! react/jsx-runtime */
+
+/*! react-dom/client */
+
+/*! react */
+
+/*! ../button */
+
+/*! ./App */
+
+/*! react/jsx-runtime */
+
+/*! ./components/footer */
+
+/*! core-js/modules/esnext.async-iterator.map.js */
+
+/*! react */
+
+/*! ../assets/images/insta.png */
+
+/*! ./components/banners/bannerQuality */
+
+/*! react/jsx-runtime */
+
+/*! ../../assets/images/icon.png */
+
+/*! react/jsx-runtime */
+
+/*! react */
+
+/*! ../rate */
+
+/*! ./App.css */
+
+/*! ./components/header */
+
+/*! react/jsx-runtime */
+
+/*! react/jsx-runtime */
+
+/*! ./components/banners/bannerDiffs */
+
+/*! core-js/modules/esnext.iterator.map.js */
+
+/*! react-multi-carousel */
+
+/*! react/jsx-runtime */
+
+/*! ../../assets/images/elipse.png */
+
+/*! ../../assets/images/persons.png */
+
+/*! ./button */
+
+/*! ./components/banners/bannerModels */
+
+/*! ../assets/images/avatar.png */
+
+/*! ../assets/images/stars.png */
+
+/*! react-multi-carousel/lib/styles.css */
+
+/*! react/jsx-runtime */
+
+/*! react/jsx-runtime */
+
+/*! ./components/banners/bannerGetOurSheets */
+
+/*! react */
+
+/*! ../assets/images/hotmart.png */
+
+/*! react/jsx-runtime */
+
+/*! ../../assets/images/monitor.png */
+
+/*! ../assets/images/header.png */
+
+/*! ../../assets/images/folder.png */
+
+/*! core-js/modules/esnext.iterator.map.js */
+
+/*! react */
+
+/*! react/jsx-runtime */
+
+/*! ../button */
+
+/*! core-js/modules/esnext.async-iterator.map.js */
+
+/*! react/jsx-runtime */
