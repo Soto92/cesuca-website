@@ -2,12 +2,16 @@
   "name": "website-cesuca",
   "private": true,
   "version": "1.0.0",
+  "homepage": "https://soto92.github.io/cesuca-website",
   "scripts": {
     "dev": "rsbuild dev --open",
     "build": "rsbuild build",
-    "preview": "rsbuild preview"
+    "preview": "rsbuild preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "6.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-multi-carousel": "^2.8.5"
