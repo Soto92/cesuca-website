@@ -1,54 +1,24 @@
-/*! ./components/banners/bannerSheets */
-
-/*! react */
-
-/*! ./components/banners/bannerMission */
-
-/*! ../button */
-
-/*! react */
-
-/*! react/jsx-runtime */
-
-/*! react-dom/client */
-
-/*! react */
-
-/*! ../button */
-
-/*! ./App */
-
-/*! react/jsx-runtime */
-
-/*! ./components/footer */
-
-/*! core-js/modules/esnext.async-iterator.map.js */
-
-/*! react */
-
-/*! ../assets/images/insta.png */
-
-/*! ./components/banners/bannerQuality */
-
-/*! react/jsx-runtime */
-
 /*! ../../assets/images/icon.png */
 
+/*! ./components/banners/bannerModels */
+
 /*! react/jsx-runtime */
 
+/*! react/jsx-runtime */
+
+/*! ./components/banners/bannerGetOurSheets */
+
 /*! react */
+
+/*! ../button */
 
 /*! ../rate */
 
-/*! ./App.css */
-
-/*! ./components/header */
-
 /*! react/jsx-runtime */
 
 /*! react/jsx-runtime */
 
-/*! ./components/banners/bannerDiffs */
+/*! react */
 
 /*! core-js/modules/esnext.iterator.map.js */
 
@@ -62,19 +32,17 @@
 
 /*! ./button */
 
-/*! ./components/banners/bannerModels */
+/*! ./components/banners/bannerSheets */
 
 /*! ../assets/images/avatar.png */
+
+/*! ./components/banners/bannerMission */
 
 /*! ../assets/images/stars.png */
 
 /*! react-multi-carousel/lib/styles.css */
 
 /*! react/jsx-runtime */
-
-/*! react/jsx-runtime */
-
-/*! ./components/banners/bannerGetOurSheets */
 
 /*! react */
 
@@ -90,12 +58,48 @@
 
 /*! core-js/modules/esnext.iterator.map.js */
 
-/*! react */
+/*! react/jsx-runtime */
+
+/*! ./components/footer */
 
 /*! react/jsx-runtime */
 
 /*! ../button */
 
 /*! core-js/modules/esnext.async-iterator.map.js */
+
+/*! react/jsx-runtime */
+
+/*! ./components/banners/bannerQuality */
+
+/*! react */
+
+/*! ../../assets/images/pc.png */
+
+/*! ../button */
+
+/*! react */
+
+/*! react/jsx-runtime */
+
+/*! react-dom/client */
+
+/*! ./App.css */
+
+/*! ./components/header */
+
+/*! react */
+
+/*! ../button */
+
+/*! ./App */
+
+/*! core-js/modules/esnext.async-iterator.map.js */
+
+/*! ./components/banners/bannerDiffs */
+
+/*! react */
+
+/*! ../assets/images/insta.png */
 
 /*! react/jsx-runtime */
