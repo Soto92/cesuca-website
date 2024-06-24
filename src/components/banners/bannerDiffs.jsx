@@ -81,12 +81,12 @@ const BannerModels = () => {
             }
           />
         </div>
-        <div style={{ marginLeft: "0px" }}>
+        <div style={{ marginLeft: "-10px" }}>
           <img
             src={PcIMG}
             alt="Pc"
             style={{
-              width: "500px",
+              width: "600px",
               height: "480px",
               zIndex: "0",
             }}
