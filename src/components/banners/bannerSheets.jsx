@@ -1,20 +1,63 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import IconIMG from "../../assets/images/icon.png";
 
 const CarouselItem = ({ title, text }) => {
   return (
     <div
       style={{
-        backgroundColor: "#399A52",
-        width: "500px",
-        height: "320px",
-        borderRadius: "10px",
-        padding: "16px",
+        backgroundColor: "#DFDFDF",
       }}
     >
-      <h2>{title}</h2>
-      <p>{text}</p>
+      <div
+        style={{
+          backgroundColor: "#399A52",
+          height: "250px",
+          borderRadius: "10px",
+          padding: "20px",
+          margin: "14px",
+        }}
+      >
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <div
+            style={{
+              backgroundColor: "white",
+              padding: "10px",
+              borderRadius: "90px",
+              width: "74px",
+              height: "74px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              flexShrink: 0,
+            }}
+          >
+            <img
+              src={IconIMG}
+              alt="logo"
+              style={{
+                width: "50px",
+                height: "50px",
+              }}
+            />
+          </div>
+          <div style={{ marginLeft: "10px" }}>
+            <p
+              style={{
+                color: "white",
+                fontSize: "30px",
+                display: "flex",
+                margin: 0,
+              }}
+            >
+              {title}
+            </p>
+          </div>
+        </div>
+
+        <p style={{ color: "white", fontSize: "22px" }}>{text}</p>
+      </div>
     </div>
   );
 };
@@ -42,28 +85,28 @@ const BannerSheets = () => {
 
   const data = [
     {
-      title: "DD1",
-      text: "bla bla",
+      title: "Fluxo de caixa",
+      text: "Texto Referente",
     },
     {
-      title: "DD 2",
-      text: "bla bla",
+      title: "Apresentações corporativas",
+      text: "Texto Referente",
     },
     {
-      title: "DD 3",
-      text: "bla bla",
+      title: "Resumo executivo",
+      text: "Texto Referente",
     },
     {
-      title: "DD 4",
-      text: "bla bla",
+      title: "Fluxo de caixa",
+      text: "Texto Referente",
     },
     {
-      title: "DD 5",
-      text: "bla bla",
+      title: "Apresentações corporativas",
+      text: "Texto Referente",
     },
     {
-      title: "DD 6",
-      text: "bla bla",
+      title: "Resumo executivo",
+      text: "Texto Referente",
     },
   ];
 
@@ -71,13 +114,20 @@ const BannerSheets = () => {
     <div
       style={{
         display: "flex",
-        backgroundColor: "#F2F2F2",
+        backgroundColor: "#DFDFDF",
         flexDirection: "column",
         paddingBottom: "30px",
       }}
     >
-      <div style={{ padding: "30px" }}>
-        <h2>Nossas Planilhas</h2>
+      <div
+        style={{
+          padding: "30px",
+          alignSelf: "center",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <h2 style={{ color: "#004AAD" }}>Nossas Planilhas</h2>
         <p>Veja todos nossos modelos</p>
       </div>
       <div>

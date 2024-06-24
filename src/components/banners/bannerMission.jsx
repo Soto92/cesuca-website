@@ -7,7 +7,7 @@ const BannerMission = () => {
       style={{
         display: "flex",
         backgroundColor: "#004AAD",
-        padding: "200px",
+        padding: "100px",
         flexDirection: "row",
         alignItems: "center",
         justifyContent: "center",
