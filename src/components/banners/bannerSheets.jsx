@@ -123,12 +123,16 @@ const BannerSheets = () => {
         style={{
           padding: "30px",
           alignSelf: "center",
+          display: "flex",
+          flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
         }}
       >
-        <h2 style={{ color: "#004AAD" }}>Nossas Planilhas</h2>
-        <p>Veja todos nossos modelos</p>
+        <h2 style={{ color: "#004AAD", fontSize: "40px", margin: 0 }}>
+          Nossas Planilhas
+        </h2>
+        <p style={{ fontSize: "30px", margin: 0 }}>Veja todos nossos modelos</p>
       </div>
       <div>
         <Carousel infinite={true} responsive={responsive}>
