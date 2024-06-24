@@ -23,12 +23,14 @@ const BannerQuality = () => {
             Acesso rápido utilizando Google Sheets ou Excel
           </strong>
         </p>
-        <p style={{ color: "black", fontSize: "15px" }}>
-          PLANILHAS DE QUALIFICAÇÃO DE CLIENTES
-        </p>
+        {[1, 2, 3].map((item) => (
+          <p key={item} style={{ color: "black", fontSize: "15px" }}>
+            PLANILHAS DE QUALIFICAÇÃO DE CLIENTES
+          </p>
+        ))}
         <Button
-          text="Eu quero"
-            onClick={() =>
+          text="Eu quero!"
+          onClick={() =>
             window.open(
               "https://hotmart.com/pt-br/marketplace/produtos/arquivos-pre-prontos-para-apresentacoes-tcc-controle-financeiro-curriculo/F83402332H",
               "_blank"
